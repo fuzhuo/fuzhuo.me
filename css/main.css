@@ -1,0 +1,244 @@
+ul li {
+    line-height: 44px;
+    float: left;
+    color: rgba(255,255,255,.6);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul li:hover {
+    color: white;
+    background: #21252b;
+}
+
+.navwrap {
+    float: left;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: -webkit-linear-gradient(top, #454B56, #393F48);
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 3px 0px;
+    z-index: 99;
+}
+
+.nav {
+    float: left;
+    color: rgba(255,255,255,.6);
+    padding-left: 34px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+    background: #ebeced;
+    font-family: "Cheltenham";
+}
+
+ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p a {
+    text-decoration: none;
+    color: #224422;
+    background: #e5e5e5;
+}
+
+.container {
+/*    height: 100%;*/
+    width: 1000px;
+    margin: 0 auto;
+    background: white;
+}
+
+.cover {
+    margin-top: 10px;
+/*    height: 100%;*/
+    border: solid 20px #ebeced;
+    border-width: 20px;
+    padding: 10px;
+/*    padding-bottom: 50px;*/
+    margin-bottom: 50px;
+}
+
+.navcontainer {
+    width: 1030;
+    margin: 0 auto;
+    border: 0;
+}
+
+ul li .title:hover {
+    color: white;
+    font-size: 20;
+}
+
+.title-text {
+    color: yellow;
+}
+
+#title {
+    color: white;
+}
+#title:hover {
+    background: inherit;
+}
+
+.image {
+    width: 100%;
+}
+
+img {
+    width: 940;
+}
+
+.avatar_container {
+    float: left;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.avatar {
+    width: 60px;
+}
+
+.info_wrap {
+    padding: 10px 0px;
+/*    margin: 0 -10;*/
+    height: 60px;
+    border-bottom: solid 2px rgba(0,0,0,0.1);
+}
+
+.info_content {
+    font-family: "Cheltenham";
+    width: 66.66666667%;
+/*    height: 100%;*/
+}
+
+.info_name {
+    font-family: "Cheltenham";
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    padding-top: 4px;
+}
+
+.middot {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.middot::after{
+    content: "\00b7";
+    padding-left: 7px;
+}
+
+.link {
+    text-decoration: none;
+    color: #888;
+}
+
+.post-date {
+    border-left: solid 1px rgba(0,0,0,.1);
+    margin-left: 10px;
+    padding-left: 10px;
+    color: #888;
+}
+
+
+
+.info_title {
+    padding-top: 8px;
+    font-family: "Cheltenham";
+    color: #666;
+    font-size: 13px;
+}
+
+.text_top_img {
+    top: 90;
+    margin-left: 510px;
+    position: absolute;
+    text-align: right;
+    width: 400;
+}
+
+.top_text {
+    margin-top: 5px;
+    color: #aaa;
+    font-size: 21px;
+}
+
+.nav_span {
+    float: left;
+    color: rgba(255,255,255,.6);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.githubimg {
+    width: 30;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.middot-right {
+    padding-left: 5px;
+}
+
+.topic {
+    padding: 10px 0px;
+    border-bottom: solid 2px rgba(0,0,0,0.1);
+    margin-bottom: 20;
+}
+
+
+
+.topic-content {
+    color: #555;
+    text-indent: 2em;
+    width: 640;
+}
+
+h1, h2, h3, h4{
+    font-size: 20;
+    color: #444;
+}
+
+.footer {
+/*    background-color: #e5e6e8;*/
+}
+
+
+
+.topic_end {
+    border: none;
+    margin-bottom: 50px;
+}
+
+.topic_main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ender {
+    text-align: center;
+    font-size: 12px;
+}
+
+.comment {
+    background-color: #e5e6e8;
+    margin: -10px;
+    margin-bottom: -26;
+}
+
+.comment_head {
+    text-align: center;
+}
+
+.comment_item {
+    padding-top: 40;
+    padding-bottom: 5;
+}
