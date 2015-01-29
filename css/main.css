@@ -38,7 +38,7 @@ body {
     margin: 0;
     background: #ebeced;
     font-family: "Cheltenham";
-/*    text-align: center;*/
+    text-align: center;
 }
 
 ul li a {
@@ -69,6 +69,7 @@ p a {
     padding: 10px;
 /*    padding-bottom: 50px;*/
     margin-bottom: 50px;
+    text-align: left;
 }
 
 .navcontainer {
