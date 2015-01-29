@@ -1,9 +1,11 @@
 ul li {
     line-height: 44px;
+    height: 42px;
     float: left;
     color: rgba(255,255,255,.6);
     padding-left: 10px;
     padding-right: 10px;
+    list-style: none;
 }
 
 ul li:hover {
@@ -36,6 +38,7 @@ body {
     margin: 0;
     background: #ebeced;
     font-family: "Cheltenham";
+/*    text-align: center;*/
 }
 
 ul li a {
@@ -53,6 +56,8 @@ p a {
 /*    height: 100%;*/
     width: 1000px;
     margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     background: white;
 }
 
@@ -69,6 +74,8 @@ p a {
 .navcontainer {
     width: 1030;
     margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     border: 0;
 }
 
@@ -184,7 +191,7 @@ img {
 .githubimg {
     width: 30;
     padding-top: 7px;
-    padding-bottom: 7px;
+/*    padding-bottom: 7px;*/
 }
 
 .middot-right {
